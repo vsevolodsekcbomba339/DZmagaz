@@ -163,10 +163,19 @@ int main()
 				skidkapars /= 100;
 				skidkapars *= 5;
 				storagepars -= skidkapars;
-				total += storagepars;
 				skidkapars = 5;
 			}
-			
+			if (total > porogskidki)
+			{
+			bablostorage = total;
+			bablostorage /= 100;
+			bablostorage * 13;
+			total -= bablostorage;
+
+
+			}
+
+			total += storagepars;
 			system("cls");
 			std::cout << "\t\t\t всего куплено\n";
 			std::cout << "\t\t\t1- яблочный сок -" << apple << "L\n";
