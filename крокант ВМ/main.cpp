@@ -171,6 +171,7 @@ int main()
 			bablostorage /= 100;
 			bablostorage *= 13;
 			total -= bablostorage;
+			bablostorage = 13
 
 
 			}
@@ -188,7 +189,8 @@ int main()
 			std::cout << "\t\t\t1- чесночный чай -" << garlic << "L\n";
 			std::cout << "\t\t\t2- петрушевый чай -" << parsley << "L\n";
 			std::cout << "\t\t\t3- каркаде -" << karkade << "L\n";
-			std::cout << "скидка на петрушевый чай" << skidkapars;
+			std::cout << "скидка на петрушевый чай" << skidkapars << "%\n";
+			std::cout << "скидка на весь товар" << bablostorage << "%\n";
 			std::cout << total;
 			break;
 		}
