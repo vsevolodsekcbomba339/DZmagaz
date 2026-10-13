@@ -169,7 +169,7 @@ int main()
 			{
 			bablostorage = total;
 			bablostorage /= 100;
-			bablostorage * 13;
+			bablostorage *= 13;
 			total -= bablostorage;
 
 
