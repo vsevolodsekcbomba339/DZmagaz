@@ -30,6 +30,8 @@ int main()
 		std::cout << "\t\t\t 1-фруктовые\n";
 		std::cout << "\t\t\t 2-овощьные\n";
 		std::cout << "\t\t\t 3-чаи\n";
+		std::cout << "\t\t\t выберите любую цифру кроме данных чтобы вывести чек\n";
+
 		std::cin >> choose;
 
 
@@ -44,6 +46,7 @@ int main()
 				std::cout << "\t\t\t2- апельсиновый сок 120r -" << orange << "L\n";
 				std::cout << "\t\t\t3- абрикосовый сок 160r -" << apricot << "L\n";
 				std::cout << "\t\t\t4- грушевый сок 80r -" << pear << "L\n";
+				std::cout << "выберите любую цифру кроме данных чтобы выйти в меню";
 				std::cin >> choose;
 				system("cls");
 					if (choose == 1)
@@ -89,6 +92,7 @@ int main()
 				std::cout << "\t\t\t1- томатный сок 60r -" << tomato << "L\n";
 				std::cout << "\t\t\t2- луковый сок 120r -" << onion << "L\n";
 				std::cout << "\t\t\t3- огуречный сок 160r -" << pickle << "L\n";
+				std::cout << "выберите любую цифру кроме данных чтобы выйти в меню";
 				std::cin >> choose;
 				system("cls");
 				if (choose == 1)
@@ -127,6 +131,7 @@ int main()
 				std::cout << "\t\t\t1- чесночный чай 60r -" << garlic << "L\n";
 				std::cout << "\t\t\t2- петрушевый чай 120r -" << parsley << "L\n";
 				std::cout << "\t\t\t3- каркаде 1488r -" << karkade << "L\n";
+				std::cout << "выберите любую цифру кроме данных чтобы выйти в меню";
 				std::cin >> choose;
 				system("cls");
 				if (choose == 1)
